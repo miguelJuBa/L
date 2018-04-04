@@ -8,7 +8,9 @@ Just add L.hpp to your project.
 
 ## How to compile
 
-g++ example.cpp -std=c++11
+mkdir build
+cd build
+cmake ..
 
 ## Channel selection
 
