@@ -1,11 +1,14 @@
+#define CATCH_CONFIG_MAIN
 #include <iostream>
-#include <catch.hpp>
+#include "../external/catch.hpp"
 #include "L.hpp"
 
-int main(int argc, char ** argv)
+TEST_CASE("TEST EXAMPLE")
 {
-    Logger::L L;
-    L.setLevel("TRACE");
-    L.i("Testing log...");
-    return 0;
+    Logger::L * L = new Logger::L();
+
+    REQUIRE(1==1);
+    REQUIRE(1==3);
+    
+    delete L;
 }
