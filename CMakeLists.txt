@@ -12,4 +12,4 @@ SET( CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAG
 
 include_directories(external)
 
-add_executable(example src/tests.cpp)
+add_executable(tests tests/tests.cpp)
