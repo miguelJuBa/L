@@ -1,5 +1,7 @@
 # L
 
+[![Build Status](https://travis-ci.org/miguelJuBa/L.svg?branch=master)](https://travis-ci.org/miguelJuBa/L)
+
 ## Introduction
 A simple logger class used in my personal projects. 
 
