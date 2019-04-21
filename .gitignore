@@ -1,2 +1,4 @@
 #Ignore cmake build directory.
 *build*/
+#Ignore vscode config
+.vscode
