@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN
 #include <iostream>
-#include "catch.hpp"
-#include "L.hpp"
+#include <catch.hpp>
+#include <L.hpp>
 
 TEST_CASE("Test standard logger output")
 {

@@ -9,10 +9,10 @@ SET( CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_CUSTOM_CXX_FLAGS}" )
 SET( CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS}" )
 
 # External dependencies
-include_directories(external src)
+include_directories(external include)
 
 add_subdirectory(tests)
 
 add_library(L INTERFACE)
-target_include_directories(L INTERFACE src/)
+target_include_directories(L INTERFACE include/)
 
